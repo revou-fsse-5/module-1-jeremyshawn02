@@ -15,30 +15,47 @@ h1 {
     font-weight: 700;
     margin: 0;
     padding: 0;
-    color: #000000;
-    background-color: #ffffff;
+    color: #f00303;
+    background-color: #3b2a2a;
     text-align: center;
     padding-bottom: 2%;
 }
 
-.navbar {
-    display: flex;
+li {
+    display: inline;
     justify-content: space-between;
-    align-items: center;
-    padding-top: 30px;
+}
+
+.navbar {
+    display: inline;
+    justify-content: center;
     font-size: 18px;
-    text-align: center;
-    padding-top: 0px;
-    padding-left: 5%;
-    padding-bottom: 1%;
-    padding-left: 5%;
-    padding-right: 5%;
+    text-align: space-between;
     background-color: #ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     color: #000000;
+    padding: 0;
+}
+
+.content-1 {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    color: #f000c8;
 }
 
 form {
+    width: 100%;
     position: static;
     display: contents;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    text-align: space-between;
+    background-color: #42293e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: #000000;
+    padding: 0;
 }
