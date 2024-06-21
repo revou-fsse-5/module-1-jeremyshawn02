@@ -20,13 +20,8 @@ h1 {
     padding-bottom: 2%;
 }
 
-<<<<<<< HEAD
 header {
     justify-content: center;
-=======
-header{
-    justify-content:center;
->>>>>>> 64ce19661a9feb378b85099d88f635fa05038126
     background-color: #3b2a2a;
     padding: 1%;
 }
@@ -54,11 +49,7 @@ header{
     justify-content: space-between;
 }
 
-<<<<<<< HEAD
 .navbar a {
-=======
-.navbar a{
->>>>>>> 64ce19661a9feb378b85099d88f635fa05038126
     text-decoration: none;
     color: #ffffff;
     padding: 14px 20px;
@@ -69,10 +60,7 @@ header{
     margin-right: 10%;
     text-align: center;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 64ce19661a9feb378b85099d88f635fa05038126
 .navbar a:hover {
     color: #d5bfbf;
 }
@@ -81,12 +69,8 @@ main {
     padding: 20px;
 }
 
-<<<<<<< HEAD
 .content-1,
 .content-2 {
-=======
-.content-1, .content-2 {
->>>>>>> 64ce19661a9feb378b85099d88f635fa05038126
     background-color: #fff;
     margin: 20px 0;
     padding: 20px;
@@ -95,11 +79,6 @@ main {
     color: #000000;
 }
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 64ce19661a9feb378b85099d88f635fa05038126
 .content-1 {
     display: block;
     background-color: rgb(255, 255, 255);
@@ -115,16 +94,9 @@ form {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255, 252, 252, 0.1);
 }
-<<<<<<< HEAD
 
 .form {
     margin-bottom: 15px;
-=======
-.form{
-    margin-bottom: 15px;
-
-    
->>>>>>> 64ce19661a9feb378b85099d88f635fa05038126
 }
 
 .form-header {
@@ -135,18 +107,10 @@ form {
     width: 100%;
 }
 
-<<<<<<< HEAD
 label {
     display: block;
     margin-bottom: 5px;
     font-size: 12px;
-=======
-label{
-    display: block;
-    margin-bottom: 5px;
-    font-size: 12px;
-
->>>>>>> 64ce19661a9feb378b85099d88f635fa05038126
 }
 
 input[type="text"],
@@ -201,7 +165,6 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-<<<<<<< HEAD
     .navbar li {
         margin: 10px 0;
     }
@@ -216,42 +179,14 @@ footer {
     form {
         padding: 10px;
     }
-=======
-
-    .navbar li {
-        margin: 10px 0;
-    }
-
-    main {
-        padding: 10px;
-    }
-
-    .content-1, .content-2 {
-        margin: 10px 0;
-        padding: 10px;
-    }
-
-    form {
-        padding: 10px;
-    }
-
->>>>>>> 64ce19661a9feb378b85099d88f635fa05038126
     button[type="submit"] {
         width: 100%;
         padding: 15px;
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> 64ce19661a9feb378b85099d88f635fa05038126
     .responsive {
         width: 100%;
         height: auto;
     }
-<<<<<<< HEAD
-=======
-    
->>>>>>> 64ce19661a9feb378b85099d88f635fa05038126
     .video {
         width: 100%;
         height: auto;
@@ -262,7 +197,6 @@ footer {
     header {
         padding: 10px 0;
     }
-<<<<<<< HEAD
     header h1 {
         font-size: 24px;
     }
@@ -271,18 +205,6 @@ footer {
     }
     .content-1 h2,
     .content-2 h2 {
-=======
-
-    header h1 {
-        font-size: 24px;
-    }
-
-    .navbar a {
-        font-size: 14px;
-    }
-
-    .content-1 h2, .content-2 h2 {
->>>>>>> 64ce19661a9feb378b85099d88f635fa05038126
         font-size: 18px;
     }
 }
