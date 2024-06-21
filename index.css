@@ -7,7 +7,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000000;
-    /* background-image: ; */
 }
 
 h1 {
@@ -27,12 +26,6 @@ header{
     padding: 1%;
 }
 
-.navbar li {
-    display: inline;
-    justify-content: space-between;
-
-}
-
 .navbar {
     display: inline;
     justify-content: center;
@@ -42,16 +35,33 @@ header{
     color: #000000;
     padding: 0;
 }
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    justify-content: space-between;
+}
+
 .navbar a{
     text-decoration: none;
     color: #ffffff;
     padding: 14px 20px;
     display: inline;
     justify-content: space-between;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     margin-right: 10%;
     text-align: center;
+}
+.navbar a:hover {
+    color: #d5bfbf;
 }
 
 main {
@@ -67,10 +77,6 @@ main {
     color: #000000;
 }
 
-/* .responsive {
-    width: 100%;
-    height: auto;
-}   */
 
 
 .content-1 {
@@ -80,7 +86,7 @@ main {
 }
 
 form {
-    width: 100%;
+    width: 50%;
     position: static;
     display: contents;
     background-color: #fff;
@@ -94,8 +100,12 @@ form {
     
 }
 
-.form-header{
+.form-header {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
 }
 
 label{
@@ -131,6 +141,8 @@ button[type="submit"] {
     font-size: 16px;
     transition: background-color 0.3s;
     align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 button[type="submit"]:hover {
@@ -138,14 +150,16 @@ button[type="submit"]:hover {
 }
 
 footer {
+    background-color: #3b2a2a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
-    font-size: 18px;
-    text-align: space-between;
-    background-color: #42293e;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    color: #ffffff;
-    padding: 0;
+    align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -177,6 +191,11 @@ footer {
     }
 
     .responsive {
+        width: 100%;
+        height: auto;
+    }
+    
+    .video {
         width: 100%;
         height: auto;
     }
