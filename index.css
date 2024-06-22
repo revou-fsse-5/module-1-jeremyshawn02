@@ -30,6 +30,11 @@ header {
     background-color: #3b2a2a;
 }
 
+header ul li img {
+    width: 25px;
+    display: none;
+}
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -50,6 +55,7 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    gap: 30px;
 }
 
 .navbar li {
@@ -104,7 +110,12 @@ form {
 }
 
 .form {
-    margin-bottom: 15px;
+    margin-top: 25px;
+    gap: 10px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .form-header {
@@ -130,6 +141,10 @@ select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+.test {
+    width: 350px;
 }
 
 .radio p {
